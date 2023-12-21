@@ -8,18 +8,19 @@ POST http://localhost:4000/users
 Content-Type: application/json
 
 {
-    "name" : "satrio",
-    "email" : "satrio@gmail.com",
-    "address" : "Tangerang"
+    "name" : "john",
+    "email" : "john@gmail.com",
+    "address" : "Jakarta"
 }
 
 ###
-PATCH http://localhost:4000/users/1343133
+PATCH  http://localhost:4000/users/1
 Content-Type: application/json
 
 {
-    "name" : "utomo",
-    "email" : "utomo@gmail.com"
+    "name" : "jane doe",
+    "email" : "jane@gmail.com",
+    "address" : "Yogyakarta"
 }
 
 ###
